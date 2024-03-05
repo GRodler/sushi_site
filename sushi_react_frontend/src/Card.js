@@ -5,10 +5,10 @@ import {useState} from "react";
 
 export default function Card({nome,immagine,prezzo}){
 
-    const [quantity, setQuantity] = useState(1);
+    const [quantity, setQuantity] = useState(1);//hook di react
 
     const handleIncrement = () => {
-        setQuantity(prevQuantity => (prevQuantity < 10) ? prevQuantity + 1 : prevQuantity);
+        setQuantity(prevQuantity => (prevQuantity < 15) ? prevQuantity + 1 : prevQuantity); //prevUse fa parte degli hook di react
     };
 
     const handleDecrement = () => {
