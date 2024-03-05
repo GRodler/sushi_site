@@ -16,7 +16,7 @@ export default function Card({nome,immagine,prezzo}){
     };
 
     return (
-        <div className="card text-center">
+        <div className="card text-center" >
             <img className="card-img-top" src={immagine} alt="Card image cap"/>
             <div className="card-body">
                 <h5 className="card-title">{nome}</h5>

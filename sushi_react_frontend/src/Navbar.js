@@ -1,4 +1,5 @@
 import logo from "./images/logo192.png";
+import {Link} from "react-router-dom";
 
 export default function NavBar(){
     return(
@@ -12,8 +13,10 @@ export default function NavBar(){
                     </a>
                     <ul className="navbar-nav mr-auto">
                       <span>
-                          <button type="button" className="btn btn-success mx-1">Ordina</button>
-                          <button type="button" className="btn btn-warning mx-1">Aggiungi</button>
+                          <button type="button" className="btn btn-warning mx-1">
+                              <Link to="/aggiungi" className="link">Aggiungi</Link>
+
+                          </button>
                       </span>
 
                     </ul>

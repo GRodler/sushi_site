@@ -73,3 +73,8 @@
   border-radius: 12px;
   background: #3dbd3d;
 }
+
+.link {
+  color: inherit; /* Utilizza il colore del testo del genitore */
+  text-decoration: none; /* Rimuove la sottolineatura */
+}

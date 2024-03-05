@@ -1,4 +1,4 @@
-import express from "express";//mjs supporta gli import
+import express, {request, response} from "express";//mjs supporta gli import
 import cors from "cors"; //questa roba serve per la sicurezza
 import data from "./sushi_data.json" assert {type: "json"};
 
@@ -16,4 +16,8 @@ app.get("/sushi_data",(request,response) =>{
     const sushi_response = data.sushi
     response.send(JSON.stringify(sushi_response))
 })
+
+app.post("/add_data",(request,response) =>{
+        console.log(request.body)
+});
 

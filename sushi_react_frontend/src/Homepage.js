@@ -18,7 +18,6 @@ export function CardGrid({data}){
     return (
         <div className="container ">
             <div className="row">{sushi}</div>
-
         </div>
     );
 }
@@ -33,9 +32,7 @@ export default function  Homepage(){
                 response.json()
             )//sto affare ritorna una promessa nice
             .then((data) =>{
-                console.log(data)
                 setSushi(data);
-                console.log(sushi)
             })
             .catch((err) => {
                 console.log(err)
