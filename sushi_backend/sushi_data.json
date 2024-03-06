@@ -36,6 +36,13 @@
         "nome":"Shrimp Roll",
         "immagine":"shrimp",
         "prezzo": 3.50
-    }
+    },
+
+        {
+            "id":7,
+            "nome":"Luca",
+            "immagine":"shrimp",
+            "prezzo": 4.50
+        }
     ]
 }

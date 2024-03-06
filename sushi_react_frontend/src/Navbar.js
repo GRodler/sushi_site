@@ -17,7 +17,7 @@ export default function NavBar(){
                               <Link to="/aggiungi" className="link">Aggiungi</Link>
                           </button>
                           <button type="button" className="btn btn-success mx-1">
-                              <Link to="/" className="link">Ordina</Link>
+                              <Link to="/" className="link">Home</Link>
                           </button>
 
                       </span>

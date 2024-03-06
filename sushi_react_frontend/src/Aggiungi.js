@@ -39,7 +39,6 @@ export function Form(){
     };
 
     const handleSubmit = (event) => {
-        event.preventDefault();
         // Puoi gestire il submit del form qui
         const min = 7;
         const max =100;

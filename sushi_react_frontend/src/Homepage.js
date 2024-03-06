@@ -30,7 +30,7 @@ export default function  Homepage(){
         )
             .then(response =>
                 response.json()
-            )//sto affare ritorna una promessa nice
+            )
             .then((data) =>{
                 setSushi(data);
             })
