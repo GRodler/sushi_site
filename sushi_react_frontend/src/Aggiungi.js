@@ -49,6 +49,7 @@ export function Form(){
             "immagine":immagineSushi,
             "prezzo": prezzoSushi
         }
+        sendData({dati})
 
         // Esegui altre azioni come invio dei dati al server, ecc.
     };
