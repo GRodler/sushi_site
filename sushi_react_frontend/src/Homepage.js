@@ -3,6 +3,8 @@ import {GetImmagine} from "./util";
 import {useEffect, useState} from "react";
 import NavBar from "./Navbar";
 
+
+
 export function CardGrid({data}){
     const sushi = data.map(dato =>
         <div className="col-3 mt-3">
