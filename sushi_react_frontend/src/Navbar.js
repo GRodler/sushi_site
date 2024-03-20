@@ -13,13 +13,16 @@ export default function NavBar(){
                     </a>
                     <ul className="navbar-nav mr-auto">
                       <span>
-                          <button type="button" className="btn btn-warning mx-1">
-                              <Link to="/aggiungi" className="link">Aggiungi</Link>
-                          </button>
-                          <button type="button" className="btn btn-success mx-1">
-                              <Link to="/" className="link">Home</Link>
-                          </button>
-
+                          <Link to="/aggiungi" className="link">
+                                <button type="button" className="btn btn-warning mx-1">
+                                Aggiungi
+                                </button>
+                          </Link>
+                            <Link to="/" className="link">
+                            <button type="button" className="btn btn-success mx-1">
+                                Home
+                            </button>
+                              </Link>
                       </span>
 
                     </ul>

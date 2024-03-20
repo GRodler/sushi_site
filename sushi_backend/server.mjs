@@ -44,7 +44,7 @@ app.get("/sushi_data",(request,response) =>{
 app.post("/add_data",(request,response) =>{
         console.log("dati ricevuti:")
         console.log(request.body.nome)
-        db.query("INSERT INTO `sushi_type`(`nome`, `immagine`, `prezzo`) VALUES ('+ +','[value-3]','[value-4]')");
+        db.query("INSERT INTO `sushi_type`(`nome`, `immagine`, `prezzo`) VALUES ('"+request.body.nome+"','"+request.body.immagine+"','"+request.body.prezzo+"')");
 
 });
 
